@@ -1,15 +1,15 @@
-# KrenoClass3FastAPI
+# LoanPrediction
 
-### To setup your environment
+# setting up enviroment
 1. Open your terminal or on Windows open the Anaconda Terminal
-2. Run `conda create --name KrenoC3 python=3.10`
-3. Once all the setup is complete then run `conda activate krenoC3`
+2. Run `conda create --name LoanPrediction python=3.10`
+3. Once all the setup is complete then run `conda activate LoanPrediction`
 4. Now go into the boilerplate directory by `cd`
 5. And then perform `pip install -r requirements.txt`
 6. Once all the libraries are installed
 7. Open visual studio code and open this code
 8. Open the terminal in VSC
-9. In the terminal again run `conda activate krenoC3`
+9. In the terminal again run `conda activate LoanPrediction`
 10. Finally run `uvicorn main:app --reload`
 11. Now go to your browser and type `http://localhost:8000/`
 12. If you see Hello World in JSON then you are good to go
@@ -30,7 +30,22 @@
 |Credit_History|1|2|String|
 |Property_Area|Rural|3|String|
 
-### What is the expected output
-
+### detail project
 We want to predict if loan should be passed or rejected. Pass will be 1 and rejected will be 0
+
+### expected output
+
+{
+
+"status": "success",
+"error_code": 0,
+"prediction": {
+"label": 1,
+"value": "approve"
+
+"time_taken": "250ms"
+
+},
+}
+
 
