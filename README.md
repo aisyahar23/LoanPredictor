@@ -1,6 +1,6 @@
 # LoanPrediction
 
-### setting up enviroment
+### setting up the enviroment
 1. Open your terminal or on Windows open the Anaconda Terminal
 2. Run `conda create --name LoanPrediction python=3.10`
 3. Once all the setup is complete then run `conda activate LoanPrediction`
